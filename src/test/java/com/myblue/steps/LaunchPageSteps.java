@@ -25,9 +25,9 @@ public class LaunchPageSteps {
 
     }
 
-
     @After
     public void tearDown(Scenario scenario) {
+
         driver.quit();
         logger.info(scenario.getName()+" Scenario execution completed");
         logger.info("Browser closed Successfully");

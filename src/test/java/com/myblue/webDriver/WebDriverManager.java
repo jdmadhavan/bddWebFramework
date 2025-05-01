@@ -1,13 +1,10 @@
 package com.myblue.webDriver;
 
-import com.myblue.BrowserManger.ChromeBrowser;
+import com.myblue.browserManger.ChromeBrowser;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 import java.util.logging.Logger;
-
-import static com.myblue.BrowserManger.BrowserType.CHROME;
 
 public class WebDriverManager {
     public  WebDriver driver;

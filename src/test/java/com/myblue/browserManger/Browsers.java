@@ -1,4 +1,4 @@
-package com.myblue.BrowserManger;
+package com.myblue.browserManger;
 
 import org.openqa.selenium.WebDriver;
 
